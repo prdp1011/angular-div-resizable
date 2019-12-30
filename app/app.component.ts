@@ -2,36 +2,8 @@ import { Component, HostListener, OnInit } from '@angular/core';
 
 @Component({
   selector: 'my-app',
-  template: `
-    <style>
-        #chat {
-            position: fixed;
-            background-color: black;
-            opacity: 0.8;
-        }
-        .chat-corner-resize {
-            position: absolute;
-            width: 10px;
-            height: 10px;
-        }
-        #chat-top-left-resize { top: 0px; left: 0px; }
-        #chat-top-right-resize { top: 0px; right: 0px; }
-        #chat-bottom-left-resize { bottom: 0px; left: 0px; }
-        #chat-bottom-right-resize { bottom: 0px; right: 0px; }
-
-    </style>
-    <div id='chat' [style.top.px]='y'
-                   [style.left.px]='x'
-                   [style.width.px]='width'
-                   [style.height.px]='height'
-                   (mousedown)='onWindowPress($event)'
-                   (mousemove)='onWindowDrag($event)'>
-        <div (mousedown)='onCornerClick($event, topLeftResize)' id='chat-top-left-resize' class='chat-corner-resize'></div>    
-        <div (mousedown)='onCornerClick($event, topRightResize)' id='chat-top-right-resize' class='chat-corner-resize'></div>    
-        <div (mousedown)='onCornerClick($event, bottomLeftResize)' id='chat-bottom-left-resize' class='chat-corner-resize'></div>    
-        <div (mousedown)='onCornerClick($event, bottomRightResize)' id='chat-bottom-right-resize' class='chat-corner-resize'></div>    
-    </div> 
-  `
+  styleUrls: ['./app.component.css'],
+  templateUrl: 'app.component.html'
 })
 export class ChatWindowComponent implements OnInit {
 
