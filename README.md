@@ -2,4 +2,4 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-div-resizable)
 
-![](name-of-giphy.gif)
+<a href="https://imgflip.com/gif/3wpu6l">Test</a>
