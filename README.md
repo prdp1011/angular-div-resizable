@@ -1,6 +1,3 @@
-# angular-div-resizable
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-div-resizable)
-
+# make a div box resizable
 
 ![](intro.gif)
