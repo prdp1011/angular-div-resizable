@@ -1,3 +1,3 @@
 # make a div box resizable
 
-![](intro.gif)
+![](intro1.gif)
